@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Rich Dream Consult</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="mesh-bg"></div>
+
+    <!-- Navigation -->
+    <nav id="main-nav" class="glass-card" style="position: fixed; top: 1.5rem; left: 50%; transform: translateX(-50%); width: calc(100% - 3rem); max-width: 1200px; padding: 0.8rem 2rem; border-radius: 4rem; z-index: 1000; display: flex; justify-content: space-between; align-items: center;">
+        <a href="./index.html" class="logo" style="display:flex;align-items:center;gap:0.8rem;text-decoration:none;">
+            <img src="./assets/logo.png" alt="Rich Dream Logo" style="height:44px;width:44px;border-radius:50%;object-fit:cover;border:2px solid var(--primary);">
+            <div class="font-heading" style="font-size:1.2rem;font-weight:800;color:var(--primary);line-height:1.1;">RICH DREAM<br><span style="font-size:0.65rem;font-weight:400;letter-spacing:0.15rem;color:var(--text-muted);text-transform:uppercase;">CONSULT</span></div>
+        </a>
+        <div id="nav-menu" style="display:flex;gap:2.5rem;font-size:0.85rem;font-weight:500;">
+            <a href="./about.html" style="opacity:0.8;">About</a>
+            <a href="./services.html" class="text-gold">Services</a>
+            <a href="./awards.html" style="opacity:0.8;">Recognition</a>
+            <a href="./contact.html" style="opacity:0.8;">Connect</a>
+        </div>
+        <a href="./contact.html" class="btn-primary" style="padding:0.6rem 1.5rem;font-size:0.8rem;">Enquire Now</a>
+        <div id="nav-toggle" aria-label="Toggle menu" role="button" tabindex="0"><span></span><span></span><span></span></div>
+    </nav>
+    <div id="mobile-menu">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./services.html">Services</a>
+        <a href="./awards.html">Recognition</a>
+        <a href="./contact.html">Connect</a>
+        <a href="./contact.html" class="btn-primary mobile-cta">Enquire Now</a>
+    </div>
+
+    <!-- Page Header -->
+    <section style="padding-top: 12rem; padding-bottom: 4rem; text-align: center;">
+        <div class="container reveal">
+            <span class="section-tag">Expertise Pillars</span>
+            <h1 style="font-size: clamp(2.4rem, 6vw, 4rem); margin-bottom: 2rem;">Mastering <span class="gradient-text">Complexity</span></h1>
+            <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">Tailored solutions for individuals and businesses on a global scale.</p>
+        </div>
+    </section>
+
+    <!-- Travel & Tours -->
+    <section>
+        <div class="container">
+            <div class="glass-card reveal" style="padding: 0; overflow:hidden; margin-bottom: 2.5rem;">
+                <div style="display:grid;grid-template-columns:280px 1fr;align-items:stretch;">
+                    <img src="https://images.unsplash.com/photo-1436491865332-7a61a109c0f?auto=format&fit=crop&q=80&w=600" alt="Travel" style="width:100%;height:100%;object-fit:cover;min-height:240px;">
+                    <div style="padding:3rem;">
+                        <div style="width:50px;height:50px;background:rgba(197,160,89,0.1);border-radius:1rem;display:flex;align-items:center;justify-content:center;margin-bottom:1.5rem;">
+                            <i data-lucide="plane" class="text-gold"></i>
+                        </div>
+                        <h2 style="font-size:2rem;margin-bottom:1.5rem;">Travel & <span class="text-gold">Tours</span></h2>
+                        <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.8rem 2rem;">
+                            <p style="font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:0.5rem;"><i data-lucide="check-circle" style="width:14px;color:var(--primary);flex-shrink:0;"></i> USA, Canada & UK Visas</p>
+                            <p style="font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:0.5rem;"><i data-lucide="check-circle" style="width:14px;color:var(--primary);flex-shrink:0;"></i> Business Certificates</p>
+                            <p style="font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:0.5rem;"><i data-lucide="check-circle" style="width:14px;color:var(--primary);flex-shrink:0;"></i> Schengen & Europe Support</p>
+                            <p style="font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:0.5rem;"><i data-lucide="check-circle" style="width:14px;color:var(--primary);flex-shrink:0;"></i> Flight & Hotel Booking</p>
+                            <p style="font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:0.5rem;"><i data-lucide="check-circle" style="width:14px;color:var(--primary);flex-shrink:0;"></i> Passport Processing</p>
+                            <p style="font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:0.5rem;"><i data-lucide="check-circle" style="width:14px;color:var(--primary);flex-shrink:0;"></i> Bank Statement Support</p>
+                            <p style="font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:0.5rem;"><i data-lucide="check-circle" style="width:14px;color:var(--primary);flex-shrink:0;"></i> Birth & Marriage Certificates</p>
+                            <p style="font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:0.5rem;"><i data-lucide="check-circle" style="width:14px;color:var(--primary);flex-shrink:0;"></i> Travel Insurance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- IT Services -->
+            <div class="glass-card reveal delay-1" style="padding: 0; overflow:hidden; margin-bottom: 2.5rem; background: linear-gradient(to right, rgba(197,160,89,0.04), transparent);">
+                <div style="display:grid;grid-template-columns:1fr 280px;align-items:stretch;">
+                    <div style="padding:3rem;">
+                        <div style="width:50px;height:50px;background:rgba(197,160,89,0.1);border-radius:1rem;display:flex;align-items:center;justify-content:center;margin-bottom:1.5rem;">
+                            <i data-lucide="monitor" class="text-gold"></i>
+                        </div>
+                        <h2 style="font-size:2rem;margin-bottom:1.5rem;">Information <span class="text-gold">Technology</span></h2>
+                        <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.8rem 2rem;">
+                            <p style="font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:0.5rem;"><i data-lucide="check-circle" style="width:14px;color:var(--primary);flex-shrink:0;"></i> CCTV & Networking</p>
+                            <p style="font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:0.5rem;"><i data-lucide="check-circle" style="width:14px;color:var(--primary);flex-shrink:0;"></i> Computer Training</p>
+                            <p style="font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:0.5rem;"><i data-lucide="check-circle" style="width:14px;color:var(--primary);flex-shrink:0;"></i> Hardware Sales</p>
+                            <p style="font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:0.5rem;"><i data-lucide="check-circle" style="width:14px;color:var(--primary);flex-shrink:0;"></i> Printer Servicing</p>
+                            <p style="font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:0.5rem;"><i data-lucide="check-circle" style="width:14px;color:var(--primary);flex-shrink:0;"></i> Software Solutions</p>
+                            <p style="font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:0.5rem;"><i data-lucide="check-circle" style="width:14px;color:var(--primary);flex-shrink:0;"></i> Repairs & Maintenance</p>
+                            <p style="font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:0.5rem;"><i data-lucide="check-circle" style="width:14px;color:var(--primary);flex-shrink:0;"></i> Windows Installation</p>
+                            <p style="font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:0.5rem;"><i data-lucide="check-circle" style="width:14px;color:var(--primary);flex-shrink:0;"></i> Internet Café Services</p>
+                        </div>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=600" alt="IT" style="width:100%;height:100%;object-fit:cover;min-height:240px;">
+                </div>
+            </div>
+
+            <!-- Business Consultancy -->
+            <div class="glass-card reveal delay-2" style="padding: 0; overflow:hidden;">
+                <div style="display:grid;grid-template-columns:280px 1fr;align-items:stretch;">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=600" alt="Business" style="width:100%;height:100%;object-fit:cover;min-height:240px;">
+                    <div style="padding:3rem;">
+                        <div style="width:50px;height:50px;background:rgba(197,160,89,0.1);border-radius:1rem;display:flex;align-items:center;justify-content:center;margin-bottom:1.5rem;">
+                            <i data-lucide="trending-up" class="text-gold"></i>
+                        </div>
+                        <h2 style="font-size:2rem;margin-bottom:1.5rem;">Business <span class="text-gold">Consultancy</span></h2>
+                        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:1rem;">
+                            <div class="glass-card" style="padding:1.2rem;background:rgba(255,255,255,0.02);">
+                                <h4 style="margin-bottom:0.4rem;font-size:0.9rem;">Process Improvement</h4>
+                                <p style="font-size:0.8rem;color:var(--text-muted);">Streamlining operations to maximize efficiency.</p>
+                            </div>
+                            <div class="glass-card" style="padding:1.2rem;background:rgba(255,255,255,0.02);">
+                                <h4 style="margin-bottom:0.4rem;font-size:0.9rem;">Tech Implementation</h4>
+                                <p style="font-size:0.8rem;color:var(--text-muted);">Integrating the right tools to empower teams.</p>
+                            </div>
+                            <div class="glass-card" style="padding:1.2rem;background:rgba(255,255,255,0.02);">
+                                <h4 style="margin-bottom:0.4rem;font-size:0.9rem;">Strategy Development</h4>
+                                <p style="font-size:0.8rem;color:var(--text-muted);">Long-term roadmaps for sustainable growth.</p>
+                            </div>
+                            <div class="glass-card" style="padding:1.2rem;background:rgba(255,255,255,0.02);">
+                                <h4 style="margin-bottom:0.4rem;font-size:0.9rem;">Org Design</h4>
+                                <p style="font-size:0.8rem;color:var(--text-muted);">Structuring teams for agility and communication.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section style="text-align: center; padding: 5rem 0;">
+        <div class="container reveal">
+            <h2 style="font-size: 2.5rem; margin-bottom: 2rem;">Need a <span class="text-gold">Custom</span> Solution?</h2>
+            <a href="./contact.html" class="btn-primary">Book a Consultation <i data-lucide="arrow-right" style="width:16px;"></i></a>
+        </div>
+    </section>
+
+    <footer style="padding: 3rem 0; border-top: 1px solid var(--glass-border); text-align: center;">
+        <div class="container">
+            <div style="display:flex;align-items:center;justify-content:center;gap:0.8rem;margin-bottom:1.2rem;">
+                <img src="./assets/logo.png" alt="RDC Logo" style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:1px solid var(--primary);">
+                <span class="font-heading" style="font-size:1rem;font-weight:800;color:var(--primary);">RICH DREAM CONSULT</span>
+            </div>
+            <p style="font-size: 0.78rem; color: var(--text-muted);">© 2026 Rich Dream Consult. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>

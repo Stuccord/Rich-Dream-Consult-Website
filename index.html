@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rich Dream Consult | Award-Winning Global Consultancy</title>
+    <meta name="description" content="Rich Dream Consult provides expert services in Travel & Tours, Information Technology, and Business Management Consultancy. Multi-award winning firm in Ghana.">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="mesh-bg"></div>
+
+    <!-- Navigation -->
+    <nav id="main-nav" class="glass-card" style="position: fixed; top: 1.5rem; left: 50%; transform: translateX(-50%); width: calc(100% - 3rem); max-width: 1200px; padding: 0.8rem 2rem; border-radius: 4rem; z-index: 1000; display: flex; justify-content: space-between; align-items: center;">
+        <a href="./index.html" class="logo" style="display: flex; align-items: center; gap: 0.8rem; text-decoration: none;">
+            <img src="./assets/logo.png" alt="Rich Dream Logo" style="height: 44px; width: 44px; border-radius: 50%; object-fit: cover; border: 2px solid var(--primary); box-shadow: 0 0 12px rgba(197,160,89,0.3);">
+            <div class="font-heading" style="font-size: 1.2rem; font-weight: 800; color: var(--primary); line-height: 1.1;">RICH DREAM<br><span style="font-size: 0.65rem; font-weight: 400; letter-spacing: 0.15rem; color: var(--text-muted); text-transform: uppercase;">CONSULT</span></div>
+        </a>
+        <div id="nav-menu" style="display: flex; gap: 2.5rem; font-size: 0.85rem; font-weight: 500;">
+            <a href="./about.html" style="opacity:0.8;">About</a>
+            <a href="./services.html" style="opacity:0.8;">Services</a>
+            <a href="./awards.html" style="opacity:0.8;">Recognition</a>
+            <a href="./contact.html" style="opacity:0.8;">Connect</a>
+        </div>
+        <a href="./contact.html" class="btn-primary" style="padding: 0.6rem 1.5rem; font-size: 0.8rem;">Enquire Now</a>
+        <!-- Hamburger toggle -->
+        <div id="nav-toggle" aria-label="Toggle menu" role="button" tabindex="0">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./services.html">Services</a>
+        <a href="./awards.html">Recognition</a>
+        <a href="./contact.html">Connect</a>
+        <a href="./contact.html" class="btn-primary mobile-cta">Enquire Now</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" style="min-height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; padding-top: 8rem; position: relative; overflow: hidden;">
+        <div style="position: absolute; inset: 0; z-index: -1;">
+            <img src="./assets/office.png" alt="Rich Dream Office" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(0.25);">
+            <div style="position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(10,10,11,0.4) 0%, rgba(10,10,11,0.85) 70%, #0A0A0B 100%);"></div>
+        </div>
+        <div class="container reveal">
+            <div style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(197,160,89,0.1); border: 1px solid rgba(197,160,89,0.25); border-radius: 2rem; padding: 0.4rem 1.2rem; margin-bottom: 2rem;">
+                <i data-lucide="star" style="width: 14px; color: var(--primary);"></i>
+                <span style="font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12rem; text-transform: uppercase; color: var(--primary);">Established 2020 · Multi-Award Winner</span>
+            </div>
+            <h1 style="font-size: clamp(3rem, 8vw, 6rem); line-height: 1.05; margin-bottom: 2rem; letter-spacing: -0.03em;">
+                Crafting <span class="gradient-text">Dreams</span><br>into Global Realities.
+            </h1>
+            <p style="font-size: 1.15rem; color: var(--text-muted); max-width: 620px; margin: 0 auto 3rem; font-weight: 300; line-height: 1.8;">
+                Ghana's premier consultancy delivering excellence across Travel & Visa Services, Information Technology, and Business Strategy.
+            </p>
+            <div style="display: flex; gap: 1.2rem; justify-content: center; flex-wrap: wrap;">
+                <a href="./services.html" class="btn-primary" style="font-size: 0.95rem;">Explore Services <i data-lucide="arrow-right" style="width:16px;"></i></a>
+                <a href="./awards.html" class="btn-outline" style="font-size: 0.95rem;">Our Recognition</a>
+            </div>
+        </div>
+        <!-- Scroll indicator -->
+        <div style="position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%); animation: bounce 2s 1s infinite; opacity: 0.5;">
+            <i data-lucide="chevrons-down" style="width: 24px; color: var(--primary);"></i>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <div style="background: rgba(197,160,89,0.06); border-top: 1px solid rgba(197,160,89,0.15); border-bottom: 1px solid rgba(197,160,89,0.15);">
+        <div class="container" style="display: grid; grid-template-columns: repeat(4, 1fr); padding: 2.5rem 2rem; gap: 1rem; text-align: center;">
+            <div class="reveal">
+                <div class="text-gold font-heading" style="font-size: 2.25rem; font-weight: 800;">5+</div>
+                <p style="font-size: 0.78rem; color: var(--text-muted); margin-top: 0.3rem; text-transform: uppercase; letter-spacing: 0.1rem;">Prestigious Awards</p>
+            </div>
+            <div class="reveal delay-1">
+                <div class="text-gold font-heading" style="font-size: 2.25rem; font-weight: 800;">2</div>
+                <p style="font-size: 0.78rem; color: var(--text-muted); margin-top: 0.3rem; text-transform: uppercase; letter-spacing: 0.1rem;">Branch Offices</p>
+            </div>
+            <div class="reveal delay-2">
+                <div class="text-gold font-heading" style="font-size: 2.25rem; font-weight: 800;">500+</div>
+                <p style="font-size: 0.78rem; color: var(--text-muted); margin-top: 0.3rem; text-transform: uppercase; letter-spacing: 0.1rem;">Visas Processed</p>
+            </div>
+            <div class="reveal delay-3">
+                <div class="text-gold font-heading" style="font-size: 2.25rem; font-weight: 800;">4+</div>
+                <p style="font-size: 0.78rem; color: var(--text-muted); margin-top: 0.3rem; text-transform: uppercase; letter-spacing: 0.1rem;">Years of Impact</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About / Story Section -->
+    <section id="about">
+        <div class="container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center;">
+            <div class="reveal">
+                <span class="section-tag">Our Legacy</span>
+                <h2 style="font-size: 2.8rem; margin-bottom: 1.5rem; line-height: 1.15;">A Journey of <span class="text-gold">Innovation</span></h2>
+                <p style="color: var(--text-muted); margin-bottom: 1.2rem; line-height: 1.9;">
+                    Founded on January 1, 2020, and rebranded on October 19, 2022, Rich Dream Consult has rapidly grown from a local startup to Ghana's leading consultancy powerhouse.
+                </p>
+                <p style="color: var(--text-muted); line-height: 1.9;">
+                    Led by CEO <strong style="color: var(--text-main);">Richard Afoakwah Nti</strong>, we are driven by a commitment to deliver reliable, innovative, and results-oriented solutions that empower individuals and businesses locally and internationally.
+                </p>
+                <a href="./about.html" class="btn-outline" style="display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 2rem; font-size: 0.9rem;">Read Our Story <i data-lucide="arrow-right" style="width:14px;"></i></a>
+            </div>
+            <div class="reveal delay-1" style="position: relative;">
+                <div style="border-radius: 2rem; overflow: hidden; height: 480px; position: relative;">
+                    <img src="./assets/award1.png" alt="Rich Dream Award" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(10,10,11,0.8), transparent);"></div>
+                    <div style="position: absolute; bottom: 2rem; left: 2rem;">
+                        <span style="font-size: 0.7rem; font-weight: 700; color: var(--primary); text-transform: uppercase; letter-spacing: 0.15rem;">Multi-Award Winning</span>
+                        <h3 style="font-size: 1.4rem; margin-top: 0.3rem;">ABMA Best IT Award 2024</h3>
+                    </div>
+                </div>
+                <!-- CEO badge overlay -->
+                <div class="glass-card" style="position: absolute; top: -1.5rem; right: -1.5rem; padding: 1rem 1.5rem; display: flex; align-items: center; gap: 1rem; border-radius: 1.2rem;">
+                    <img src="./assets/ceo.png" alt="CEO" style="width: 48px; height: 48px; border-radius: 50%; object-fit: cover; object-position: top; border: 2px solid var(--primary);">
+                    <div>
+                        <p style="font-size: 0.75rem; font-weight: 700;">Richard Nti</p>
+                        <p style="font-size: 0.65rem; color: var(--text-muted);">CEO & Founder</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" style="background: rgba(255,255,255,0.01);">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 4rem;">
+                <span class="section-tag">Expertise Pillars</span>
+                <h2 style="font-size: 3rem;">Comprehensive <span class="gradient-text">Solutions</span></h2>
+                <p style="color: var(--text-muted); margin-top: 1rem; max-width: 560px; margin-left: auto; margin-right: auto;">Tailored expertise across three powerful domains for individuals and businesses.</p>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
+                <!-- Travel & Tours -->
+                <div class="glass-card reveal" style="padding: 0; overflow: hidden;">
+                    <div style="height: 220px; position: relative;">
+                        <img src="https://images.unsplash.com/photo-1436491865332-7a61a109c0f?auto=format&fit=crop&q=80&w=700" alt="Travel" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div style="position: absolute; inset: 0; background: linear-gradient(to top, #141416 0%, transparent 60%);"></div>
+                        <div style="position: absolute; top: 1.2rem; right: 1.2rem; background: var(--primary); border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
+                            <i data-lucide="plane" style="width: 18px; color: #000;"></i>
+                        </div>
+                    </div>
+                    <div style="padding: 2.5rem;">
+                        <h3 style="font-size: 1.6rem; margin-bottom: 1.2rem;">Travel & Tours</h3>
+                        <ul style="list-style: none; color: var(--text-muted); font-size: 0.88rem; display: grid; gap: 0.7rem;">
+                            <li style="display:flex;align-items:center;gap:0.6rem;"><i data-lucide="check-circle" style="width:15px;color:var(--primary);flex-shrink:0;"></i> Visa Applications — USA, Canada, UK, EU</li>
+                            <li style="display:flex;align-items:center;gap:0.6rem;"><i data-lucide="check-circle" style="width:15px;color:var(--primary);flex-shrink:0;"></i> Passport & Certificate Processing</li>
+                            <li style="display:flex;align-items:center;gap:0.6rem;"><i data-lucide="check-circle" style="width:15px;color:var(--primary);flex-shrink:0;"></i> Flight & Hotel Reservations</li>
+                            <li style="display:flex;align-items:center;gap:0.6rem;"><i data-lucide="check-circle" style="width:15px;color:var(--primary);flex-shrink:0;"></i> Travel Insurance & Bank Statement Support</li>
+                        </ul>
+                        <a href="./services.html" style="display:inline-flex;align-items:center;gap:0.4rem;margin-top:1.5rem;font-size:0.8rem;color:var(--primary);font-weight:600;">Learn More <i data-lucide="arrow-right" style="width:13px;"></i></a>
+                    </div>
+                </div>
+                <!-- IT Services -->
+                <div class="glass-card reveal delay-1" style="padding: 0; overflow: hidden;">
+                    <div style="height: 220px; position: relative;">
+                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=700" alt="Technology" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div style="position: absolute; inset: 0; background: linear-gradient(to top, #141416 0%, transparent 60%);"></div>
+                        <div style="position: absolute; top: 1.2rem; right: 1.2rem; background: var(--primary); border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
+                            <i data-lucide="monitor" style="width: 18px; color: #000;"></i>
+                        </div>
+                    </div>
+                    <div style="padding: 2.5rem;">
+                        <h3 style="font-size: 1.6rem; margin-bottom: 1.2rem;">Information Technology</h3>
+                        <ul style="list-style: none; color: var(--text-muted); font-size: 0.88rem; display: grid; gap: 0.7rem;">
+                            <li style="display:flex;align-items:center;gap:0.6rem;"><i data-lucide="check-circle" style="width:15px;color:var(--primary);flex-shrink:0;"></i> CCTV & Networking Installations</li>
+                            <li style="display:flex;align-items:center;gap:0.6rem;"><i data-lucide="check-circle" style="width:15px;color:var(--primary);flex-shrink:0;"></i> Hardware Sales & Software Solutions</li>
+                            <li style="display:flex;align-items:center;gap:0.6rem;"><i data-lucide="check-circle" style="width:15px;color:var(--primary);flex-shrink:0;"></i> Computer Training & IT Consulting</li>
+                            <li style="display:flex;align-items:center;gap:0.6rem;"><i data-lucide="check-circle" style="width:15px;color:var(--primary);flex-shrink:0;"></i> Repairs, Maintenance & Internet Café</li>
+                        </ul>
+                        <a href="./services.html" style="display:inline-flex;align-items:center;gap:0.4rem;margin-top:1.5rem;font-size:0.8rem;color:var(--primary);font-weight:600;">Learn More <i data-lucide="arrow-right" style="width:13px;"></i></a>
+                    </div>
+                </div>
+                <!-- Business Consultancy -->
+                <div class="glass-card reveal delay-2" style="padding: 0; overflow: hidden;">
+                    <div style="height: 220px; position: relative;">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=700" alt="Consultancy" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div style="position: absolute; inset: 0; background: linear-gradient(to top, #141416 0%, transparent 60%);"></div>
+                        <div style="position: absolute; top: 1.2rem; right: 1.2rem; background: var(--primary); border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
+                            <i data-lucide="trending-up" style="width: 18px; color: #000;"></i>
+                        </div>
+                    </div>
+                    <div style="padding: 2.5rem;">
+                        <h3 style="font-size: 1.6rem; margin-bottom: 1.2rem;">Business Consultancy</h3>
+                        <ul style="list-style: none; color: var(--text-muted); font-size: 0.88rem; display: grid; gap: 0.7rem;">
+                            <li style="display:flex;align-items:center;gap:0.6rem;"><i data-lucide="check-circle" style="width:15px;color:var(--primary);flex-shrink:0;"></i> Organizational Design & Process Improvement</li>
+                            <li style="display:flex;align-items:center;gap:0.6rem;"><i data-lucide="check-circle" style="width:15px;color:var(--primary);flex-shrink:0;"></i> Strategy Development & Orientation</li>
+                            <li style="display:flex;align-items:center;gap:0.6rem;"><i data-lucide="check-circle" style="width:15px;color:var(--primary);flex-shrink:0;"></i> Technology Implementation</li>
+                            <li style="display:flex;align-items:center;gap:0.6rem;"><i data-lucide="check-circle" style="width:15px;color:var(--primary);flex-shrink:0;"></i> Professional Business Consultation</li>
+                        </ul>
+                        <a href="./services.html" style="display:inline-flex;align-items:center;gap:0.4rem;margin-top:1.5rem;font-size:0.8rem;color:var(--primary);font-weight:600;">Learn More <i data-lucide="arrow-right" style="width:13px;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Strip -->
+    <section id="awards" style="background: rgba(197,160,89,0.03); border-top: 1px solid rgba(197,160,89,0.1); border-bottom: 1px solid rgba(197,160,89,0.1);">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 4rem;">
+                <span class="section-tag">Hall of Fame</span>
+                <h2 style="font-size: 3rem;">Awards & <span class="text-gold">Recognition</span></h2>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem;">
+                <div class="glass-card reveal" style="padding: 0; overflow: hidden;">
+                    <img src="./assets/award1.png" alt="ABMA 2024" style="width:100%;height:160px;object-fit:cover;">
+                    <div style="padding:1.5rem;">
+                        <div style="font-size:0.65rem;font-weight:700;color:var(--primary);text-transform:uppercase;letter-spacing:0.12rem;margin-bottom:0.4rem;">ABMA 2024 · WINNER</div>
+                        <p style="font-size:0.85rem;font-weight:600;">Best in Information Technology</p>
+                    </div>
+                </div>
+                <div class="glass-card reveal delay-1" style="padding: 0; overflow: hidden;">
+                    <img src="./assets/award2.png" alt="GIMA 2024" style="width:100%;height:160px;object-fit:cover;">
+                    <div style="padding:1.5rem;">
+                        <div style="font-size:0.65rem;font-weight:700;color:var(--primary);text-transform:uppercase;letter-spacing:0.12rem;margin-bottom:0.4rem;">GIMA 2024 · WINNER</div>
+                        <p style="font-size:0.85rem;font-weight:600;">Most Outstanding in Travel & Tours</p>
+                    </div>
+                </div>
+                <div class="glass-card reveal delay-2" style="padding: 0; overflow: hidden;">
+                    <img src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?auto=format&fit=crop&q=80&w=500" alt="ABMA 2025 Visa" style="width:100%;height:160px;object-fit:cover;">
+                    <div style="padding:1.5rem;">
+                        <div style="font-size:0.65rem;font-weight:700;color:var(--primary);text-transform:uppercase;letter-spacing:0.12rem;margin-bottom:0.4rem;">ABMA 2025 · WINNER</div>
+                        <p style="font-size:0.85rem;font-weight:600;">Most Outstanding in Visa Acquisition</p>
+                    </div>
+                </div>
+                <div class="glass-card reveal delay-3" style="padding: 0; overflow: hidden;">
+                    <img src="https://images.unsplash.com/photo-1579389083078-4e7018379f7e?auto=format&fit=crop&q=80&w=500" alt="GBA 2024" style="width:100%;height:160px;object-fit:cover;">
+                    <div style="padding:1.5rem;">
+                        <div style="font-size:0.65rem;font-weight:700;color:var(--primary);text-transform:uppercase;letter-spacing:0.12rem;margin-bottom:0.4rem;">GBA 2024 · NOMINEE</div>
+                        <p style="font-size:0.85rem;font-weight:600;">Consultancy Firm of the Year</p>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align:center;margin-top:3rem;">
+                <a href="./awards.html" class="btn-outline" style="font-size:0.9rem;">View All Awards <i data-lucide="arrow-right" style="width:14px;"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section id="contact">
+        <div class="container">
+            <div class="glass-card reveal" style="padding: 0; overflow: hidden; display: grid; grid-template-columns: 1fr 1fr;">
+                <!-- Info side -->
+                <div style="padding: 4rem; background: linear-gradient(135deg, rgba(197,160,89,0.08), transparent);">
+                    <span class="section-tag">Connect With Us</span>
+                    <h2 style="font-size: 2.5rem; margin-bottom: 2rem;">Ready to <span class="text-gold">Start</span>?</h2>
+                    <div style="display: grid; gap: 1.5rem;">
+                        <div style="display:flex;align-items:flex-start;gap:1rem;">
+                            <div style="width:36px;height:36px;background:rgba(197,160,89,0.12);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                                <i data-lucide="map-pin" style="width:16px;color:var(--primary);"></i>
+                            </div>
+                            <div>
+                                <h4 style="font-size:0.95rem;margin-bottom:0.2rem;">Head Office — Teshie, Accra</h4>
+                                <p style="font-size:0.85rem;color:var(--text-muted);">First Junction, Fertilizer Road · GZ-015-1321</p>
+                            </div>
+                        </div>
+                        <div style="display:flex;align-items:flex-start;gap:1rem;">
+                            <div style="width:36px;height:36px;background:rgba(197,160,89,0.12);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                                <i data-lucide="map-pin" style="width:16px;color:var(--primary);"></i>
+                            </div>
+                            <div>
+                                <h4 style="font-size:0.95rem;margin-bottom:0.2rem;">Branch — Amakom, Kumasi</h4>
+                                <p style="font-size:0.85rem;color:var(--text-muted);">Ashanti Region</p>
+                            </div>
+                        </div>
+                        <div style="display:flex;align-items:flex-start;gap:1rem;">
+                            <div style="width:36px;height:36px;background:rgba(197,160,89,0.12);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                                <i data-lucide="phone" style="width:16px;color:var(--primary);"></i>
+                            </div>
+                            <div>
+                                <h4 style="font-size:0.95rem;margin-bottom:0.2rem;">Phone</h4>
+                                <p style="font-size:0.85rem;color:var(--text-muted);">0530481524</p>
+                            </div>
+                        </div>
+                        <div style="display:flex;align-items:flex-start;gap:1rem;">
+                            <div style="width:36px;height:36px;background:rgba(197,160,89,0.12);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                                <i data-lucide="clock" style="width:16px;color:var(--primary);"></i>
+                            </div>
+                            <div>
+                                <h4 style="font-size:0.95rem;margin-bottom:0.2rem;">Working Hours</h4>
+                                <p style="font-size:0.85rem;color:var(--text-muted);">Mon – Fri: 8:00 AM – 5:00 PM<br>Saturday: By Appointment</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="display:flex;gap:0.8rem;margin-top:2.5rem;">
+                        <a href="http://www.facebook.com/richdreamconsult" target="_blank" class="glass-card" style="width:42px;height:42px;padding:0;border-radius:50%;display:flex;align-items:center;justify-content:center;" title="Facebook"><i data-lucide="facebook" style="width:18px;"></i></a>
+                        <a href="https://twitter.com/richd_consult" target="_blank" class="glass-card" style="width:42px;height:42px;padding:0;border-radius:50%;display:flex;align-items:center;justify-content:center;" title="Twitter"><i data-lucide="twitter" style="width:18px;"></i></a>
+                        <a href="https://www.linkedin.com/in/richard-afoakwah-nti-1966161b7/" target="_blank" class="glass-card" style="width:42px;height:42px;padding:0;border-radius:50%;display:flex;align-items:center;justify-content:center;" title="LinkedIn"><i data-lucide="linkedin" style="width:18px;"></i></a>
+                        <a href="https://www.richdreamconsult.com" target="_blank" class="glass-card" style="width:42px;height:42px;padding:0;border-radius:50%;display:flex;align-items:center;justify-content:center;" title="Website"><i data-lucide="globe" style="width:18px;"></i></a>
+                    </div>
+                </div>
+                <!-- Form side -->
+                <div style="padding: 4rem; background: var(--bg-dark-soft);">
+                    <form style="display: grid; gap: 1.2rem;">
+                        <input type="text" placeholder="Your Name" style="font-size:0.9rem;">
+                        <input type="email" placeholder="Email Address" style="font-size:0.9rem;">
+                        <input type="tel" placeholder="Phone Number" style="font-size:0.9rem;">
+                        <select style="font-size:0.9rem;">
+                            <option value="">Select Service Interest</option>
+                            <option>Travel & Tours / Visa Application</option>
+                            <option>Information Technology Services</option>
+                            <option>Business Management Consultancy</option>
+                            <option>Other Enquiry</option>
+                        </select>
+                        <textarea placeholder="Your message..." rows="5" style="font-size:0.9rem;resize:vertical;"></textarea>
+                        <button type="button" class="btn-primary" style="justify-content:center;padding:1rem; display:flex; gap:0.5rem;">
+                            Send Message <i data-lucide="send" style="width:16px;"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="padding: 5rem 0 3rem; border-top: 1px solid var(--glass-border);">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 4rem; margin-bottom: 4rem;">
+                <!-- Brand -->
+                <div>
+                    <div style="display:flex;align-items:center;gap:0.8rem;margin-bottom:1.5rem;">
+                        <img src="./assets/logo.png" alt="RDC Logo" style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid var(--primary);">
+                        <div class="font-heading" style="font-size:1.1rem;font-weight:800;color:var(--primary);">RICH DREAM<br><span style="font-size:0.6rem;font-weight:400;letter-spacing:0.15rem;color:var(--text-muted);">CONSULT</span></div>
+                    </div>
+                    <p style="font-size:0.85rem;color:var(--text-muted);line-height:1.9;max-width:280px;">Driven by innovation, integrity, and excellence. Empowering individuals and businesses locally and globally.</p>
+                </div>
+                <!-- Services -->
+                <div>
+                    <h4 style="font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:0.12rem;color:var(--primary);margin-bottom:1.2rem;">Services</h4>
+                    <ul style="list-style:none;display:grid;gap:0.8rem;font-size:0.85rem;color:var(--text-muted);">
+                        <li><a href="./services.html" style="color:inherit;opacity:0.8;">Travel & Tours</a></li>
+                        <li><a href="./services.html" style="color:inherit;opacity:0.8;">Visa Applications</a></li>
+                        <li><a href="./services.html" style="color:inherit;opacity:0.8;">IT Solutions</a></li>
+                        <li><a href="./services.html" style="color:inherit;opacity:0.8;">Business Consultancy</a></li>
+                    </ul>
+                </div>
+                <!-- Company -->
+                <div>
+                    <h4 style="font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:0.12rem;color:var(--primary);margin-bottom:1.2rem;">Company</h4>
+                    <ul style="list-style:none;display:grid;gap:0.8rem;font-size:0.85rem;color:var(--text-muted);">
+                        <li><a href="./about.html" style="color:inherit;opacity:0.8;">About Us</a></li>
+                        <li><a href="./awards.html" style="color:inherit;opacity:0.8;">Recognition</a></li>
+                        <li><a href="./contact.html" style="color:inherit;opacity:0.8;">Contact</a></li>
+                        <li><a href="https://www.richdreamconsult.com" target="_blank" style="color:inherit;opacity:0.8;">Website</a></li>
+                    </ul>
+                </div>
+                <!-- Contact -->
+                <div>
+                    <h4 style="font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:0.12rem;color:var(--primary);margin-bottom:1.2rem;">Contact</h4>
+                    <ul style="list-style:none;display:grid;gap:0.8rem;font-size:0.85rem;color:var(--text-muted);">
+                        <li>0530481524</li>
+                        <li>Teshie, Accra</li>
+                        <li>Amakom, Kumasi</li>
+                        <li style="display:flex;gap:0.6rem;margin-top:0.5rem;">
+                            <a href="http://www.facebook.com/richdreamconsult" target="_blank" style="color:var(--primary);"><i data-lucide="facebook" style="width:16px;"></i></a>
+                            <a href="https://twitter.com/richd_consult" target="_blank" style="color:var(--primary);"><i data-lucide="twitter" style="width:16px;"></i></a>
+                            <a href="https://www.linkedin.com/in/richard-afoakwah-nti-1966161b7/" target="_blank" style="color:var(--primary);"><i data-lucide="linkedin" style="width:16px;"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div style="border-top:1px solid var(--glass-border);padding-top:2rem;display:flex;justify-content:space-between;align-items:center;font-size:0.78rem;color:var(--text-muted);">
+                <span>© 2026 Rich Dream Consult. All rights reserved.</span>
+                <span>RDC · Est. 2020 · Rebranded 2022</span>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
