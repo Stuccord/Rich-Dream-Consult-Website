@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | Rich Dream Consult</title>
+    <meta name="description" content="Contact Rich Dream Consult via phone, email, WhatsApp, or visit our offices in Accra and Kumasi, Ghana.">
     <link rel="stylesheet" href="./style.css">
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
@@ -16,10 +17,11 @@
             <img src="./assets/logo.png" alt="Rich Dream Logo" style="height:44px;width:44px;border-radius:50%;object-fit:cover;border:2px solid var(--primary);">
             <div class="font-heading" style="font-size:1.2rem;font-weight:800;color:var(--primary);line-height:1.1;">RICH DREAM<br><span style="font-size:0.65rem;font-weight:400;letter-spacing:0.15rem;color:var(--text-muted);text-transform:uppercase;">CONSULT</span></div>
         </a>
-        <div id="nav-menu" style="display:flex;gap:2.5rem;font-size:0.85rem;font-weight:500;">
+        <div id="nav-menu" style="display:flex;gap:2rem;font-size:0.85rem;font-weight:500;">
             <a href="./about.html" style="opacity:0.8;">About</a>
             <a href="./services.html" style="opacity:0.8;">Services</a>
             <a href="./awards.html" style="opacity:0.8;">Recognition</a>
+            <a href="./faq.html" style="opacity:0.8;">FAQs</a>
             <a href="./contact.html" class="text-gold">Connect</a>
         </div>
         <a href="./contact.html" class="btn-primary" style="padding:0.6rem 1.5rem;font-size:0.8rem;">Enquire Now</a>
@@ -30,6 +32,7 @@
         <a href="./about.html">About</a>
         <a href="./services.html">Services</a>
         <a href="./awards.html">Recognition</a>
+        <a href="./faq.html">FAQs</a>
         <a href="./contact.html">Connect</a>
         <a href="./contact.html" class="btn-primary mobile-cta">Enquire Now</a>
     </div>
@@ -39,7 +42,20 @@
         <div class="container reveal">
             <span class="section-tag">Get In Touch</span>
             <h1 style="font-size: clamp(2.4rem, 6vw, 4rem); margin-bottom: 2rem;">Let's Build Your <span class="gradient-text">Future</span></h1>
-            <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">Reach out to our experts at any of our branches across Ghana.</p>
+            <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto 2.5rem;">Reach our team via phone, email, WhatsApp, or visit us at any of our offices across Ghana.</p>
+            <!-- Quick-action buttons -->
+            <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+                <a href="tel:+233530481524" class="btn-outline" style="font-size:0.88rem;">
+                    <i data-lucide="phone" style="width:15px;"></i> Call Now
+                </a>
+                <a href="mailto:info@richdreamconsult.com" class="btn-outline" style="font-size:0.88rem;">
+                    <i data-lucide="mail" style="width:15px;"></i> Send Email
+                </a>
+                <a href="https://wa.me/233530481524?text=Hello%20Rich%20Dream%20Consult!" target="_blank" style="background:#25D366;color:#fff;padding:0.85rem 1.8rem;border-radius:5rem;font-weight:600;font-size:0.88rem;display:inline-flex;align-items:center;gap:0.5rem;transition:all 0.3s;">
+                    <svg viewBox="0 0 448 512" style="width:15px;fill:#fff;flex-shrink:0;"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                    WhatsApp Us
+                </a>
+            </div>
         </div>
     </section>
 
@@ -49,67 +65,101 @@
 
             <!-- Info Column -->
             <div class="reveal">
-                <div class="glass-card" style="padding: 2rem; margin-bottom: 2rem;">
-                    <h3 style="font-size: 1.1rem; margin-bottom: 1.5rem; color: var(--primary);">Head Office — Teshie</h3>
-                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.5rem;">First Junction, Fertilizer Road, Accra</p>
-                    <p style="font-size: 0.85rem; color: var(--text-muted);">Postal: GZ-015-1321</p>
-                </div>
-                <div class="glass-card" style="padding: 2rem; margin-bottom: 2rem;">
-                    <h3 style="font-size: 1.1rem; margin-bottom: 1.5rem; color: var(--primary);">Kumasi Branch</h3>
-                    <p style="font-size: 0.85rem; color: var(--text-muted);">Amakom, Kumasi · Ashanti Region</p>
-                </div>
-                <div class="glass-card" style="padding: 2rem; margin-bottom: 2rem;">
-                    <h3 style="font-size: 1.1rem; margin-bottom: 1rem;">Contact Details</h3>
-                    <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.8rem;">
-                        <i data-lucide="phone" style="width:15px;color:var(--primary);flex-shrink:0;"></i>
-                        <span style="font-size:0.85rem;color:var(--text-muted);">0530481524</span>
+                <!-- Head Office -->
+                <div class="glass-card" style="padding: 1.8rem; margin-bottom: 1.5rem;">
+                    <div style="display:flex;align-items:center;gap:0.8rem;margin-bottom:1rem;">
+                        <div style="width:38px;height:38px;background:rgba(197,160,89,0.1);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                            <i data-lucide="map-pin" style="width:16px;color:var(--primary);"></i>
+                        </div>
+                        <h3 style="font-size:1rem;color:var(--primary);">Head Office — Teshie, Accra</h3>
                     </div>
-                    <div style="display:flex;align-items:center;gap:0.6rem;">
-                        <i data-lucide="clock" style="width:15px;color:var(--primary);flex-shrink:0;"></i>
-                        <span style="font-size:0.85rem;color:var(--text-muted);">Mon–Fri: 8 AM – 5 PM</span>
+                    <p style="font-size:0.85rem;color:var(--text-muted);">First Junction, Fertilizer Road</p>
+                    <p style="font-size:0.85rem;color:var(--text-muted);">Postal: GZ-015-1321</p>
+                </div>
+                <!-- Kumasi Branch -->
+                <div class="glass-card" style="padding: 1.8rem; margin-bottom: 1.5rem;">
+                    <div style="display:flex;align-items:center;gap:0.8rem;margin-bottom:1rem;">
+                        <div style="width:38px;height:38px;background:rgba(197,160,89,0.1);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                            <i data-lucide="map-pin" style="width:16px;color:var(--primary);"></i>
+                        </div>
+                        <h3 style="font-size:1rem;color:var(--primary);">Branch — Amakom, Kumasi</h3>
+                    </div>
+                    <p style="font-size:0.85rem;color:var(--text-muted);">Ashanti Region</p>
+                </div>
+                <!-- Phone & Email -->
+                <div class="glass-card" style="padding: 1.8rem; margin-bottom: 1.5rem; display:grid; gap:1rem;">
+                    <a href="tel:+233530481524" style="display:flex;align-items:center;gap:0.8rem;color:inherit;text-decoration:none;transition:color 0.3s;" onmouseover="this.style.color='var(--primary)'" onmouseout="this.style.color='inherit'">
+                        <div style="width:38px;height:38px;background:rgba(197,160,89,0.1);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                            <i data-lucide="phone" style="width:16px;color:var(--primary);"></i>
+                        </div>
+                        <div>
+                            <p style="font-size:0.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.08rem;">Call Us</p>
+                            <p style="font-size:0.9rem;font-weight:600;">0530481524</p>
+                        </div>
+                    </a>
+                    <a href="mailto:info@richdreamconsult.com" style="display:flex;align-items:center;gap:0.8rem;color:inherit;text-decoration:none;transition:color 0.3s;" onmouseover="this.style.color='var(--primary)'" onmouseout="this.style.color='inherit'">
+                        <div style="width:38px;height:38px;background:rgba(197,160,89,0.1);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                            <i data-lucide="mail" style="width:16px;color:var(--primary);"></i>
+                        </div>
+                        <div>
+                            <p style="font-size:0.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.08rem;">Email Us</p>
+                            <p style="font-size:0.9rem;font-weight:600;">info@richdreamconsult.com</p>
+                        </div>
+                    </a>
+                    <div style="display:flex;align-items:center;gap:0.8rem;">
+                        <div style="width:38px;height:38px;background:rgba(197,160,89,0.1);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                            <i data-lucide="clock" style="width:16px;color:var(--primary);"></i>
+                        </div>
+                        <div>
+                            <p style="font-size:0.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.08rem;">Hours</p>
+                            <p style="font-size:0.9rem;font-weight:600;">Mon–Fri: 8 AM – 5 PM</p>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <h4 style="font-size:0.75rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.1rem;margin-bottom:1rem;">Follow Us</h4>
-                    <div style="display:flex;gap:0.8rem;flex-wrap:wrap;">
-                        <a href="http://www.facebook.com/richdreamconsult" target="_blank" class="glass-card" style="width:44px;height:44px;padding:0;border-radius:50%;display:flex;align-items:center;justify-content:center;">
-                            <i data-lucide="facebook" style="width:18px;"></i>
-                        </a>
-                        <a href="https://twitter.com/richd_consult" target="_blank" class="glass-card" style="width:44px;height:44px;padding:0;border-radius:50%;display:flex;align-items:center;justify-content:center;">
-                            <i data-lucide="twitter" style="width:18px;"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/richard-afoakwah-nti-1966161b7/" target="_blank" class="glass-card" style="width:44px;height:44px;padding:0;border-radius:50%;display:flex;align-items:center;justify-content:center;">
-                            <i data-lucide="linkedin" style="width:18px;"></i>
-                        </a>
-                        <a href="https://www.richdreamconsult.com" target="_blank" class="glass-card" style="width:44px;height:44px;padding:0;border-radius:50%;display:flex;align-items:center;justify-content:center;">
-                            <i data-lucide="globe" style="width:18px;"></i>
-                        </a>
-                    </div>
+                <!-- Social -->
+                <div style="display:flex;gap:0.8rem;flex-wrap:wrap;">
+                    <a href="http://www.facebook.com/richdreamconsult" target="_blank" class="glass-card" style="width:44px;height:44px;padding:0;border-radius:50%;display:flex;align-items:center;justify-content:center;" title="Facebook"><i data-lucide="facebook" style="width:18px;"></i></a>
+                    <a href="https://twitter.com/richd_consult" target="_blank" class="glass-card" style="width:44px;height:44px;padding:0;border-radius:50%;display:flex;align-items:center;justify-content:center;" title="Twitter"><i data-lucide="twitter" style="width:18px;"></i></a>
+                    <a href="https://www.linkedin.com/in/richard-afoakwah-nti-1966161b7/" target="_blank" class="glass-card" style="width:44px;height:44px;padding:0;border-radius:50%;display:flex;align-items:center;justify-content:center;" title="LinkedIn"><i data-lucide="linkedin" style="width:18px;"></i></a>
+                    <a href="https://wa.me/233530481524" target="_blank" style="width:44px;height:44px;padding:0;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#25D366;" title="WhatsApp">
+                        <svg viewBox="0 0 448 512" style="width:19px;fill:#fff;"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                    </a>
+                </div>
+
+                <!-- Map -->
+                <div class="map-embed">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.0!2d-0.1400!3d5.6100!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zTGEgUGFsbWEgLSBUZXNoaWUsIEFjY3Jh!5e0!3m2!1sen!2sgh!4v1713654000000"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Rich Dream Consult Office Location">
+                    </iframe>
                 </div>
             </div>
 
             <!-- Form Column -->
             <div class="glass-card reveal delay-1" style="padding: 3rem;">
                 <h3 style="font-size:1.4rem;margin-bottom:0.5rem;">Send a Message</h3>
-                <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:2rem;">We'll respond within one business day.</p>
-                <form style="display: grid; gap: 1.2rem;">
+                <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:2rem;">We'll respond within one business day. For urgent enquiries, WhatsApp us directly.</p>
+                <form id="contact-form" style="display: grid; gap: 1.2rem;" novalidate>
                     <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;">
                         <div style="display:grid;gap:0.4rem;">
-                            <label>Full Name</label>
-                            <input type="text" placeholder="John Doe">
+                            <label>Full Name *</label>
+                            <input type="text" id="name" placeholder="John Doe" required>
                         </div>
                         <div style="display:grid;gap:0.4rem;">
-                            <label>Email Address</label>
-                            <input type="email" placeholder="john@example.com">
+                            <label>Email Address *</label>
+                            <input type="email" id="email" placeholder="john@example.com" required>
                         </div>
                     </div>
                     <div style="display:grid;gap:0.4rem;">
-                        <label>Phone Number</label>
-                        <input type="tel" placeholder="+233 XXX XXX XXX">
+                        <label>Phone / WhatsApp Number</label>
+                        <input type="tel" id="phone" placeholder="+233 XXX XXX XXX">
                     </div>
                     <div style="display:grid;gap:0.4rem;">
-                        <label>Service Interest</label>
-                        <select>
+                        <label>Service Interest *</label>
+                        <select id="service" required>
                             <option value="">Select a service...</option>
                             <option>Travel & Tours / Visa Application</option>
                             <option>Information Technology Services</option>
@@ -118,27 +168,59 @@
                         </select>
                     </div>
                     <div style="display:grid;gap:0.4rem;">
-                        <label>Your Message</label>
-                        <textarea rows="5" placeholder="How can we help you today?"></textarea>
+                        <label>Your Message *</label>
+                        <textarea id="message" rows="5" placeholder="How can we help you today?" required></textarea>
                     </div>
-                    <button type="button" class="btn-primary" style="justify-content:center;padding:1rem;display:flex;gap:0.5rem;font-size:1rem;">
+                    <button type="submit" class="btn-primary" id="submit-btn" style="justify-content:center;padding:1rem;display:flex;gap:0.5rem;font-size:1rem;">
                         Send Message <i data-lucide="send" style="width:17px;"></i>
                     </button>
+                    <div id="form-success" style="display:none;background:rgba(37,211,102,0.1);border:1px solid rgba(37,211,102,0.3);padding:1rem;border-radius:0.8rem;font-size:0.88rem;text-align:center;color:#25D366;">
+                        ✅ Thank you! We'll be in touch shortly.
+                    </div>
                 </form>
             </div>
         </div>
     </section>
 
-    <footer style="padding: 3rem 0; border-top: 1px solid var(--glass-border); text-align: center;">
-        <div class="container">
+    <!-- Shared Footer -->
+    <footer style="padding: 3rem 0; border-top: 1px solid var(--glass-border);">
+        <div class="container" style="text-align:center;">
             <div style="display:flex;align-items:center;justify-content:center;gap:0.8rem;margin-bottom:1.2rem;">
                 <img src="./assets/logo.png" alt="RDC Logo" style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:1px solid var(--primary);">
                 <span class="font-heading" style="font-size:1rem;font-weight:800;color:var(--primary);">RICH DREAM CONSULT</span>
+            </div>
+            <div style="display:flex;justify-content:center;gap:2rem;font-size:0.8rem;color:var(--text-muted);flex-wrap:wrap;margin-bottom:1rem;">
+                <a href="./privacy.html" style="color:inherit;opacity:0.7;">Privacy Policy</a>
+                <a href="./terms.html" style="color:inherit;opacity:0.7;">Terms of Service</a>
+                <a href="./faq.html" style="color:inherit;opacity:0.7;">FAQs</a>
             </div>
             <p style="font-size: 0.78rem; color: var(--text-muted);">© 2026 Rich Dream Consult. All rights reserved.</p>
         </div>
     </footer>
 
     <script type="module" src="./main.js"></script>
+    <script>
+      // Contact form basic validation & WhatsApp fallback
+      document.getElementById('contact-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const name = document.getElementById('name').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const service = document.getElementById('service').value;
+        const message = document.getElementById('message').value.trim();
+        if (!name || !email || !service || !message) {
+          alert('Please fill in all required fields.');
+          return;
+        }
+        // Show success (in production, replace with a backend/Formspree POST)
+        document.getElementById('submit-btn').textContent = 'Sending…';
+        setTimeout(() => {
+          document.getElementById('contact-form').style.display = 'none';
+          document.getElementById('form-success').style.display = 'block';
+          // Also open WhatsApp with the message pre-filled
+          const wa = `https://wa.me/233530481524?text=Name:%20${encodeURIComponent(name)}%0AEmail:%20${encodeURIComponent(email)}%0AService:%20${encodeURIComponent(service)}%0AMessage:%20${encodeURIComponent(message)}`;
+          window.open(wa, '_blank');
+        }, 800);
+      });
+    </script>
 </body>
 </html>
